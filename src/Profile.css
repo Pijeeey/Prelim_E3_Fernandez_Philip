@@ -1,0 +1,131 @@
+/* .profile-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 25px;
+  background: rgb(206, 21, 21);
+  border-radius: 10px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  text-align: center;
+} */
+
+h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.user-info {
+  background: #f8f9fa;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+.user-info h4 {
+  color: #6c757d;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.user-info h3 {
+  color: #187a15;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.profile-picture {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-direction: column;
+  gap: 10px; /* Adds space between the image and file input */
+}
+
+
+
+.profile-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #4CAF50;
+}
+
+.upload-icon {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+  background: white;
+  border-radius: 50%;
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+
+
+.input-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #10990b;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: all 0.3s ease-in-out;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #10990b;
+  box-shadow: 0px 0px 8px rgba(0, 91, 187, 0.3);
+}
+
+.save-button {
+  width: 100%;
+  padding: 12px;
+  background: #10990b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.save-button:hover {
+  background:  yellow;
+  color: black;
+}
+
+.profile-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5; /* Ensure full gray background */
+}
+
+.profile-container {
+  background: rgb(255, 255, 255);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
